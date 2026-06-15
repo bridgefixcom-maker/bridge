@@ -1,0 +1,25 @@
+[1mdiff --git a/app1/urls.py b/app1/urls.py[m
+[1mindex 4230f1a..57e8df9 100644[m
+[1m--- a/app1/urls.py[m
+[1m+++ b/app1/urls.py[m
+[36m@@ -5,4 +5,5 @@[m [mfrom . import views[m
+ [m
+ urlpatterns = [[m
+     path('', views.index),   [m
+[31m-][m
+\ No newline at end of file[m
+[32m+[m[32m][m
+[32m+[m[32m# URL[m[41m [m
+\ No newline at end of file[m
+[1mdiff --git a/app1/views.py b/app1/views.py[m
+[1mindex 1bb87ab..383edcc 100644[m
+[1m--- a/app1/views.py[m
+[1m+++ b/app1/views.py[m
+[36m@@ -4,4 +4,4 @@[m [mfrom django.http import HttpResponse[m
+ [m
+ def index(request):[m
+     return HttpResponse("Hello, world. You're at the app1 index.") [m
+[31m-##Commit change br sarth Rajak[m
+\ No newline at end of file[m
+[32m+[m[32m##Commit change[m[41m [m
+\ No newline at end of file[m
