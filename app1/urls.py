@@ -6,6 +6,5 @@ from . import views
 urlpatterns = [
     path('', views.index),   
 ]
-
 # URL sarth rajak
 #"this is  new branch"
